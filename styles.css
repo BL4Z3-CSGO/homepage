@@ -1,0 +1,102 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Courier New", "Courier", "mono";
+	color:#24ff5b;
+	background-color: #0b004b;
+    scrollbar-color: #f11e64, #6b094f, #2fffee;
+    text-align: center;
+	vertical-align: middle;
+}
+p {
+    margin: 1%;
+    padding: 1%;
+    text-align: center;
+	vertical-align: middle;
+}
+h1 {
+	line-height: 200px;
+	height: 200px;
+	text-align: center;
+	vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    font-size: 500%;
+}
+button {
+    font-family: "Courier New", "Courier", "mono";
+    border: none;
+    margin: 0px;
+    padding: 12px;
+    width: 120px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-size: 200%;
+    transition: 0.75s;
+    background-image: linear-gradient(to left, #6b094f, #f11e64, #6b094f);
+}
+button:hover {
+    background-position: right;
+}
+.centeredObj {
+    margin: 10% -10%;
+	padding: 10% -10%;
+}
+.bigText {
+    font-weight: bolder;
+    font-size: 1000%;
+}
+.unscrollable {
+    overflow: hidden;
+}
+.homeButton {
+    font-family: "Courier New", "Courier", "mono";
+    font-weight: 900;
+    font-size: 25px;
+    border: none;
+    margin: 0px;
+    padding: 4px;
+    height: 50px;
+    width: 50px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-size: 400%;
+    transition: 0.75s;
+    background-image: linear-gradient(to right, #6b094f, #f11e64, #6b094f);
+    position: absolute;
+    top:10px;
+    right:20px;
+}
+.rainbow {
+    position: absolute;
+    top:0px;
+    margin: 0px;
+    padding: 0px;
+    height: 2.5px;
+    width: 100%;
+    background: linear-gradient(270deg, #ff0000, #00ff00, #0000ff, #ff0000, #00ff00, #0000ff, #ff0000, #00ff00, #0000ff, #ff0000, #00ff00, #0000ff, #ff0000);
+    background-size: 400% 100%;
+    animation: 3s linear 0s infinite rainbow;
+}
+
+@keyframes rainbow {
+    0%{background-position:0% 0%}
+    0%{background-position:100% 0%}
+    100%{background-position:0% 0%}
+}
+table, th, td {
+  padding: 10px;
+  border-collapse: collapse;
+  border: solid 1px white;
+  font-size: 13px;
+  font-weight:bolder;
+  font-family: consolas
+}
+table {
+	width: 200px;
+	height: fit-content;
+}
+.buttonHelper {
+	color: #ffffff;
+	border-radius: 8px;
+}
